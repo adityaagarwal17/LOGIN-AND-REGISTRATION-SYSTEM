@@ -18,7 +18,7 @@ int main(){
 	cout<<"\t\t\t************************* MENU *****************************\n\n\n\n";
 	cout<<"\t| Press 1 to LOGIN                        |"<<endl;
 	cout<<"\t| Press 2 to REGISTER                     |"<<endl;
-    cout<<"\t| Press 3 to if you forgot your PASSWORD  |"<<endl;
+    cout<<"\t| Press 3 to if you forgotten your PASSWORD  |"<<endl;
 	cout<<"\t| Press 4 to change the PASSWORD  |"<<endl;
     cout<<"\t| Press 5 to EXIT                         |"<<endl;
 
@@ -163,7 +163,7 @@ void registration(){
 void forgot_password(){
 	int option;
 	 system("clear");
-	cout<<"\t\t\t\t You forgot the password? No issue \n";
+	cout<<"\t\t\t\t Did you forgot the password! No issue! \n";
 	cout<<"Press 1 to search your user id by username \n";
 	cout<<"Press 2 to go back to the main \n";
 	cout<<"Enter your choice : ";
@@ -174,7 +174,7 @@ void forgot_password(){
 		{
 		int count=0;
 	string suserID,semid,susid,spass;
-	cout<<"\n\t\t\tEnter the user name which you remembered : ";
+	cout<<"\n\t\t\tEnter the user name which you remember : ";
 	cin>>suserID;
 	ifstream f("records.txt");
 	while(f>>semid>>susid>>spass){
